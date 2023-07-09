@@ -8,7 +8,7 @@ const Home = () => {
     <div className='w-full h-screen bg-black'>
       <Navbar />
       <Body />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 }

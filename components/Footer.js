@@ -1,27 +1,27 @@
-// import Image from "next/image"
-// import LinkedIn from '@/public/images/linked.png'
-// import Twitter from '@/public/images/twit.svg'
-// import Wellfound from '@/public/images/wellfound.png'
-// import Email from '@/public/images/mail.png'
+import Image from "next/image"
+import LinkedIn from '@/public/images/linked.png'
+import Twitter from '@/public/images/twit.svg'
+import Wellfound from '@/public/images/wellfound.png'
+import Email from '@/public/images/mail.png'
 
 
-// const Footer = () => {
-//   return (
-//     <div className="flex items-center justify-center w-full gap-8 py-3 pb-6 bg-white">
-//         <a href="" className="w-[1.4rem]" alt="linkedin">
-//             <Image src={LinkedIn} alt="linkedin image" />
-//         </a>
-//         <a href="" className="w-[1.5rem]" alt="twitter">
-//             <Image src={Twitter} alt="twitter image" />
-//         </a>
-//         <a href="" className="w-[1.2rem]" alt="wellfound">
-//             <Image src={Wellfound} alt="wellfound image" />
-//         </a>
-//         <a href="" className="w-[1.5rem]" alt="email">
-//             <Image src={Email} alt="email image" />
-//         </a>
-//     </div>
-//   )
-// }
+const Footer = () => {
+  return (
+    <div className="flex items-center justify-center w-full gap-8 py-3 pb-6 bg-white">
+        <a href="" className="w-[1.4rem]" alt="linkedin">
+            <Image src={LinkedIn} alt="linkedin image" />
+        </a>
+        <a href="" className="w-[1.5rem]" alt="twitter">
+            <Image src={Twitter} alt="twitter image" />
+        </a>
+        <a href="" className="w-[1.2rem]" alt="wellfound">
+            <Image src={Wellfound} alt="wellfound image" />
+        </a>
+        <a href="" className="w-[1.5rem]" alt="email">
+            <Image src={Email} alt="email image" />
+        </a>
+    </div>
+  )
+}
 
-// export default Footer
+export default Footer
