@@ -5,7 +5,7 @@ import Navbar from "@/components/Navbar"
 
 const Home = () => {
   return (
-    <div className='w-full h-screen bg-black'>
+    <div className='w-full h-full bg-black'>
       <Navbar />
       <Body />
       <Footer />
