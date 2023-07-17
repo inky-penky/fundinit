@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <div className="">
       <div className="lg:hidden">
-        <div className="flex items-center justify-end">
+        <div className="flex items-center justify-end pt-2 pr-2">
           <div className={`${isOpen? 'hidden':'block'}`} onClick={handleMenuClick}>
             <Image src={MobileMenu} alt="hamburger" />
           </div>
