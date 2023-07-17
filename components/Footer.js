@@ -7,7 +7,7 @@ import Email from '@/public/images/mail.png'
 
 const Footer = () => {
   return (
-    <div className="flex items-center justify-center w-full h-auto gap-8 py-3 pb-6 bg-white">
+    <div className="flex items-center justify-center w-full h-full gap-8 py-3 pb-4 bg-white lg:pb-3">
         <a href="https://www.linkedin.com/company/fundinit/" className="w-[1.4rem]" alt="linkedin">
             <Image src={LinkedIn} alt="linkedin image" />
         </a>
