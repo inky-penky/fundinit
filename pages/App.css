@@ -1,0 +1,6 @@
+.circle{
+    position: relative;
+    filter: blur(90px);
+    background: rgb(137, 60, 245);
+    background: radial-gradient(circle, rgb(223, 42, 247) 20%, rgb(134, 20, 233) 41%, rgb(69, 5, 171) 25%, rgb(37, 2, 93) 70%);
+}
