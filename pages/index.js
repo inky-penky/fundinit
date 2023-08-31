@@ -1,14 +1,17 @@
 import Body from "@/components/Body"
-import Footer from "@/components/Footer"
+import Investments from "@/components/Investments"
 import Navbar from "@/components/Navbar"
+import Founder from "@/components/Founder"
+
 
 
 const Home = () => {
   return (
-    <div className='w-full h-screen bg-black'>
+    <div className='w-full h-full'>
       <Navbar />
       <Body />
-      <Footer />
+      <Investments />
+      <Founder />
     </div>
   )
 }
