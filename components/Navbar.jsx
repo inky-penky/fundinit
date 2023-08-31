@@ -1,6 +1,7 @@
 import Image from "next/image"
-import Logo from "../public/images/fundinit_Logo.png"
-import Arrow from "../public/images/arrow_.svg"
+import Logo from "@/public/images/fundinit_Logo.png"
+import Arrow from "@/public/images/arrow_.svg"
+
 
 
 
