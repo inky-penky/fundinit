@@ -2,6 +2,7 @@ import Body from "@/components/Body"
 import Investments from "@/components/Investments"
 import Navbar from "@/components/Navbar"
 import Founder from "@/components/Founder"
+import Footer from "@/components/Footer"
 
 
 
@@ -12,6 +13,7 @@ const Home = () => {
       <Body />
       <Investments />
       <Founder />
+      <Footer />
     </div>
   )
 }
