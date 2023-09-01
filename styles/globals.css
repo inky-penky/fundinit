@@ -2,10 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,600&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,600&display=swap");
 
 body {
-    background: #06040B;
-    font-family: 'Poppins', sans-serif;
+  background: #06040b;
+  font-family: "Poppins", sans-serif;
+}
+
+.cir {
+  position: relative;
+  border-bottom-left-radius: 18rem;
+  border-bottom-right-radius: 18rem;
+  filter: blur(34px);
+  background: radial-gradient(circle, rgb(0, 0, 123) 80%, rgb(14, 2, 104) 70%);
+}
+
+.cir2 {
+  background: radial-gradient(
+    circle,
+    rgb(200, 18, 232) 80%,
+    rgb(176, 11, 205) 80%,
+    rgb(81, 3, 120) 70%
+  );
+  border-bottom-left-radius: 20rem;
+  border-bottom-right-radius: 20rem;
+  filter: blur(-20px);
 }
